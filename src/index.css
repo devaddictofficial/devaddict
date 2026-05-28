@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme{
+    --color-primary: #12D6DF;
+    --font-inter-sans: "Inter", sans-serif;
+    --font-geist-sans: "Geist", sans-serif; 
+}
+
+
+/* Header.jsx Start */
+.nav-hover {
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 200ms;
+}
+
+.nav-hover:hover {
+  color: rgb(255 255 255 / 0.6);
+}
+/* Header.jsx End */
