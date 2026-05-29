@@ -21,7 +21,7 @@ function Hero()
         <>
         <div className="Hero relative w-full h-auto p-12.5">
 
-            <div className="w-full flex flex-col h-1/2 md:flex-row md:h-auto">
+            <div className="w-full flex flex-col h-1/2 gap-5 md:gap-0 md:flex-row md:h-auto">
                 
                 {/* Content */}
                 <div className="h-1/2 md:w-1/2 flex flex-col items-start gap-3">
@@ -46,7 +46,7 @@ function Hero()
                     </ul>
 
                     {/* Icons */}
-                    <div className="flex flex-row mt-2 gap-5">
+                    <div className="flex flex-col md:flex-row w-full md:w-auto mt-2 gap-5">
 
                         {/* Icon 1 */}
                         <div class="flex flex-row items-center gap-2">
@@ -102,16 +102,16 @@ function Hero()
 
                     </div>
 
-                    <div class="flex flex-row items-center gap-4 mt-2">
-                        <button class="flex flex-row items-center text-[13.2px] tracking-wider font-bold gap-3 bg-primary rounded-xl p-3 
+                    <div class="flex flex-col md:flex-row w-full md:w-auto items-center gap-4 mt-2">
+                        <button class="flex flex-row w-full md:w-auto justify-center items-center text-[13.2px] tracking-wider font-bold gap-3 bg-primary rounded-xl p-3 
                         px-8 text-white transition-all duration-300 hover:bg-transparent hover:text-primary border 
                         border-transparent hover:border-primary">
                                 Explore Components <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-arrow-right w-4 mt-0.5 h-4" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                             </svg>
                         </button>
-                        <button class="flex flex-row items-center text-[13.2px] tracking-wider font-bold gap-3 rounded-xl p-3 px-14
-                         text-primary border-2 border-primary transition-all duration-300 hover:bg-primary
+                        <button class="flex flex-row w-full md:w-auto justify-center items-center text-[13.2px] tracking-wider font-bold gap-3 rounded-xl p-3 px-14
+                         text-primary border border-primary transition-all duration-300 hover:bg-primary
                           hover:text-white">
                                 Browse Cards
                         </button>  

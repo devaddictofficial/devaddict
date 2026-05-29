@@ -16,8 +16,15 @@ function Header()
                 <a className="nav-hover" href="">Blog</a>
                 <a className="nav-hover" href="">About</a>
                 <a className="nav-hover" href="">Github</a>
-                <button className="p-2 w-30 rounded-xl bg-primary/70 font-bold font-geist-sans text-[13px]
-                hover:scale-[105%] transition-transform ease-in-out duration-300 ">Sign In</button>
+                <form className="flex flex-row items-center">
+                    <input type="search" placeholder="Search Here...."
+                    class=" rounded-l-xl border border-r-0 h-8 py-2 px-3 text-sm border-primary outline-none focus:outline-none "/>
+                    <button className="bg-primary h-8 group hover:bg-transparent border border-primary p-2 rounded-r-xl transition-colors ease-in-out
+                    duration-200 "><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" 
+                    className="bi bi-search group-hover:text-primary text-white h-4 w-4" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                    </svg> </button>
+                </form>
             </nav>
 
             {/* <!--Hamburger Icon--> */}
